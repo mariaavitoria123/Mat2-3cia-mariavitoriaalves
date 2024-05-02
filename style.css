@@ -80,10 +80,9 @@ body {
 }
 
 .aba-conteudo-titulo-secundario {
-    font-size: 18px;
+    text-align: center;
     color: var(--verde);
     text-transform: uppercase;
-    text-align: center;
 }
 
 .botao:first-child {
