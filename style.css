@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
 
 :root {
-    --cor-de-fundo: #1E1E1E;
-    --verde: #ff57bf;
-    --branco: #ffffff;
-    --botao-ativo: #375e51;
-    --botao-inativo: rgba(58, 55, 94, 0.5);
-    --texto-fundo: rgba(155, 150, 209, 0.3);
+    --cor-de-fundo: #be98ff;
+    --verde: #fff457;
+    --branco: #FFFFFF;
+    --botao-ativo: #74cab7;
+    --botao-inativo: rgba(77, 131, 106, 0.5);
+    --texto-fundo: rgba(36, 173, 81, 0.3);
 }
 
 body {
@@ -36,7 +36,7 @@ body {
 }
 
 .botao {
-    font-family: "Crakra Petch", sans-serif;
+    font-family: 'Crakra Petch', sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
     display: flex;
@@ -80,9 +80,10 @@ body {
 }
 
 .aba-conteudo-titulo-secundario {
-    text-align: center;
+    font-size: 18px;
     color: var(--verde);
     text-transform: uppercase;
+    text-align: center;
 }
 
 .botao:first-child {
